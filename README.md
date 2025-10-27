@@ -32,8 +32,8 @@ While this was a **personal and academic project**, it is also an **opportunity 
 ---
 
 ## **📌 Upcoming Features (TODO 🚧)**
-🔹 **Self-destructing links ?** (URL expiration mechanism).  
-🔹 **Brute-force protection** (Click tracking, logs). 
+🔹 **Checkbox for self-destructing links / URL expiration ?**.  
+🔹 **Brute-force protection for the PIN insertion page ?**. 
 
 ---
 
@@ -50,7 +50,7 @@ While this was a **personal and academic project**, it is also an **opportunity 
 
 ## **📌 Project Status**
 🚀 **Live Version:** [https://sglvt.com/](https://sglvt.com/)  
-⚙️ **Next Steps:** Complete the TODOs.  
+⚙️ **Next Steps:** Potentially complete the TODOs.  
 
 ---
 
