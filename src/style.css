@@ -190,7 +190,7 @@ button {
 .shortened_paragraph {
     white-space: pre-line;
     display: none;
-    font-size: 1.15rem;
+    font-size: 1 rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
