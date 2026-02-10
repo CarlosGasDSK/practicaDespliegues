@@ -279,7 +279,7 @@ details>p {
 
 #icons p {
     color: var(--text-secondary);
-    font: 0.75rem 'Manrope', "Open Sans", sans-serif;
+    font: 0.5rem 'Manrope', "Open Sans", sans-serif;
 }
 
 #icons span img {
