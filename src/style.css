@@ -7,26 +7,41 @@
 }
 
 :root {
-    --primary: #960018;       /* Deep Maroon – BUTTONS */
-    --primary-hover: #B02025; /* Brighter Maroon - OnHover */
-    --background: #121C2B;    /* Deep Charcoal Navy – BG */
-    --card-bg: #243545;       /* Slight lift for cards */
-    --border: #3B4D5D;        /* Softer edge, midtone */
-    --text-primary: #F0F2F5;  /* Light gray-white */
-    --text-secondary: #AEB6C1;/* Soft support text */
-    --accent-blue: #4E81AC;   /* Links, inputs, headers */
-    --accent-teal: #3AB0A2;   /* Hover effects or validation success */
-    --highlight: #e67c3a;     /* Optional flair: highlights, loaders */
-    --error: #B63232;         /* Cleaned error red */
-}
-html, body {
-  margin: 0.5rem 0 0 0;
-  padding: 0;
-  overflow-x: hidden;
-  width: 100%;
+    --primary: #960018;
+    /* Deep Maroon – BUTTONS */
+    --primary-hover: #B02025;
+    /* Brighter Maroon - OnHover */
+    --background: #121C2B;
+    /* Deep Charcoal Navy – BG */
+    --card-bg: #243545;
+    /* Slight lift for cards */
+    --border: #3B4D5D;
+    /* Softer edge, midtone */
+    --text-primary: #F0F2F5;
+    /* Light gray-white */
+    --text-secondary: #AEB6C1;
+    /* Soft support text */
+    --accent-blue: #4E81AC;
+    /* Links, inputs, headers */
+    --accent-teal: #3AB0A2;
+    /* Hover effects or validation success */
+    --highlight: #e67c3a;
+    /* Optional flair: highlights, loaders */
+    --error: #B63232;
+    /* Cleaned error red */
 }
 
-body { background-color: var(--background); }
+html,
+body {
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    background-color: var(--background);
+}
 
 #wrapper {
     font-family: 'Manrope', 'Inter', 'Open Sans', 'Roboto', sans-serif;
@@ -47,7 +62,8 @@ body { background-color: var(--background); }
     box-sizing: border-box;
 }
 
-#func_wrapper { /* label, input */
+#func_wrapper {
+    /* label, input */
     border: solid 3px var(--border);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     border-radius: 0.6rem;
@@ -132,7 +148,7 @@ button {
 }
 
 #title {
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-family: 'Manrope', sans-serif;
     color: var(--text-primary);
     margin-top: 0;
@@ -150,7 +166,12 @@ button {
     margin-top: -2%;
 }
 
-#title, #subtitle, #enterurl, #text, #copy_shortcode, #btn{
+#title,
+#subtitle,
+#enterurl,
+#text,
+#copy_shortcode,
+#btn {
     color: var(--text-primary);
 }
 
@@ -164,7 +185,9 @@ button {
     width: 75%;
 }
 
-.error_p, .copy_shortcode, .shortened_paragraph {
+.error_p,
+.copy_shortcode,
+.shortened_paragraph {
     white-space: pre-line;
     display: none;
     font-size: 1.15rem;
@@ -174,20 +197,20 @@ button {
 }
 
 .copy-btn {
-  background-color: transparent;
-  border: 1px solid var(--accent-teal);
-  color: var(--accent-teal);
-  border-radius: 0.5rem;
-  padding: 0.4rem 0.75rem;
-  font-size: 0.9rem;
-  margin-top: 0.4rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
+    background-color: transparent;
+    border: 1px solid var(--accent-teal);
+    color: var(--accent-teal);
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .copy-btn:hover {
-  background-color: var(--accent-teal);
-  color: var(--card-bg);
+    background-color: var(--accent-teal);
+    color: var(--card-bg);
 }
 
 #details-wrapper {
@@ -243,7 +266,7 @@ details {
     /*max-width: 440px;*/
 }
 
-details > p {
+details>p {
     color: var(--text-secondary);
     line-height: 1.6;
     margin-top: 0.5rem;
@@ -272,26 +295,31 @@ details > p {
     #title {
         font-size: 3.2rem;
     }
-    
-    #icons, #icons > p {
+
+    #icons,
+    #icons>p {
         font-size: 0.66rem;
     }
+
     #wrapper {
         width: 90%;
         max-width: 90%;
         margin: 0 auto;
     }
+
     #details-wrapper {
         margin-top: 0.3rem;
     }
+
     #details-wrapper {
         width: 90%;
         max-width: 90%;
     }
+
     #logo {
         height: 5rem;
         width: auto;
-    /*transform: translateY(10px);*/
+        /*transform: translateY(10px);*/
     }
 }
 
@@ -299,45 +327,45 @@ details > p {
  * Footer styles
  */
 #footer {
-  min-width: 100%;
-  width: 100%;
-  background-color: #1a1d2e;
-  color: var(--text-secondary);
-  font-size: 0.75rem;
-  text-align: center;
-  padding: 0.66rem 0.5rem;
-  border-top: 1px solid var(--border);
-  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
-  z-index: 999;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  /*position: relative;*/
-  position: fixed;
-  bottom: 0;
+    min-width: 100%;
+    width: 100%;
+    background-color: #1a1d2e;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0.66rem 0.5rem;
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /*position: relative;*/
+    position: fixed;
+    bottom: 0;
 }
 
 #footer p {
-  margin: 0;
-  width: 100%;
-  min-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  line-height: 1.5;
-  word-break: break-word;
+    margin: 0;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    line-height: 1.5;
+    word-break: break-word;
 }
 
 
 #footer a {
-  color: var(--accent-teal);
-  text-decoration: underline;
+    color: var(--accent-teal);
+    text-decoration: underline;
 }
 
 #footer a:hover {
-  color: var(--highlight);
+    color: var(--highlight);
 }
 
 
@@ -345,13 +373,16 @@ details > p {
     #logo_title_wrapper {
         margin-left: 25%;
     }
+
     #title {
         font-size: 2.6rem;
     }
-    
-    #icons, #icons > p {
+
+    #icons,
+    #icons>p {
         font-size: 0.5rem;
     }
+
     /*#wrapper {*/
     /*    width: 100%;*/
     /*    max-width: 100%;*/
@@ -362,9 +393,10 @@ details > p {
         width: 90%;
         max-width: 90%;
     }
+
     #logo {
         height: 3.5rem;
         width: auto;
-    /*transform: translateY(10px);*/
+        /*transform: translateY(10px);*/
     }
 }
